@@ -1,0 +1,28 @@
+h1 {
+    color:cornflowerblue;
+    font-size: 3rem;
+}
+
+#priceTable{
+    background-color: grey;
+}
+
+.priceTable{
+    color:white;
+    background-color: black;
+}
+
+.buttonColors{
+    color: lightgreen;
+    background-color: darkgreen;
+}
+
+.titleHeader{
+    color: blue;
+}
+
+
+span{
+    text-transform: uppercase;
+    color:aqua;
+}
