@@ -2,19 +2,21 @@
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background: url(./videos/pexels-carlos-eduardo-de-meneses-11557947\ \(2160p\).mp4);
     background-size: cover;
 }
-.header-main{
+
+.header-main {
     width: 68%;
     display: flex;
-    background-color:rgba(255, 255, 255, .1);  
+    background-color: rgba(255, 255, 255, .1);
     padding: 19px;
     border-radius: 23px;
     border-style: none;
@@ -29,82 +31,86 @@ body{
     backdrop-filter: blur(3px);
 }
 
-   
-.header-main-logo{
+
+.header-main-logo {
     height: 100%;
-    
+
 }
-.header-main-logo img{
+
+.header-main-logo img {
     height: 70px;
     margin-bottom: 10px;
 }
 
-.header-main-nav{
+.header-main-nav {
     width: 1400px;
     padding: 10px;
     margin-left: 100px;
 
-    
 
 
-    
+
+
 
 }
+
 .header-main-nav ul {
     width: 700px;
     margin-top: 8px;
 
 }
-.header-main-nav li{
+
+.header-main-nav li {
     list-style: none;
     display: inline-block;
     margin-left: 22px;
-   
+
 }
 
-.header-main-nav li a{
+.header-main-nav li a {
     color: rgb(26, 25, 25);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 450;
 
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
-    font-family:BlinkMacSystemFont;
-}
-
-h1, p{
     font-family: BlinkMacSystemFont;
 }
 
-.hero-text{
+h1,
+p {
+    font-family: BlinkMacSystemFont;
+}
+
+.hero-text {
     padding: 70px;
     width: 100%;
     height: 88vh;
-    background-color: rgba(0,0,0,0.001);
+    background-color: rgba(0, 0, 0, 0.001);
 }
 
-.hero-text-title{
+.hero-text-title {
     margin-top: 10px;
     font-size: 80px;
     width: 1000px;
     color: rgb(85, 76, 76);
     background-image: linear-gradient(to right, #ffffff, #979494);
-        background-clip: text;
-        text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
-    
 
-    
-    
+
+
+
 
 }
 
-.hero-text-para{
+.hero-text-para {
     margin-top: 10px;
     width: 600px;
     font-weight: 200;
@@ -113,27 +119,27 @@ h1, p{
     font-family: 'Roboto', sans-serif;
 
 
-    
-    
+
+
 }
 
-.hero-text-button{
+.hero-text-button {
     border: 1px solid rgb(54, 52, 52);
     border-radius: 5px;
     padding: 8px;
     font-family: 'Roboto', sans-serif;
     width: 112px;
     text-align: center;
-    margin-top:30px;
+    margin-top: 30px;
     margin-left: 4px;
     color: black;
     font-weight: 400;
     background-image: linear-gradient(to right, #e0a536, #d8d144);
-   
-    
+
+
 }
 
-.hero-background-video{
+.hero-background-video {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -145,24 +151,22 @@ h1, p{
 
 
 
-.hero-main-nav-contact{
+.hero-main-nav-contact {
     border: 1px solid black;
     padding: 10px;
     border-radius: 4px;
 }
 
 
-.header-main-logo{
-
-}
+.header-main-logo {}
 
 
-.slider{
+.slider {
     height: 400px;
     width: 100%;
     margin-bottom: 25px;
     position: relative;
-        top: -25px;
+    top: -25px;
     text-align: center;
     font-family: Roboto, sans-serif;
     font-size: 24px;
@@ -170,13 +174,14 @@ h1, p{
     overflow: hidden;
     text-align: center;
 }
-.slider-images{
+
+.slider-images {
     display: flex;
     align-items: center;
     animation: slideshow 20s linear infinite;
 }
 
-.slider-images img{
+.slider-images img {
     margin-top: 40px;
     width: 280px;
     height: 200px;
@@ -186,31 +191,37 @@ h1, p{
 
 
 @keyframes slideshow {
- 0% {transform: translateX(0);}
- 100% {transform: translateX(-100%);}
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
-.slider-title{
+.slider-title {
     text-align: center;
     display: flex;
     align-items: center;
     display: flex;
-        justify-content: center;
-    font-family:Roboto, sans-serif ;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
     font-size: 35px;
 
 
 }
 
-.slider-title-grn{
-   font-weight: 700;
+.slider-title-grn {
+    font-weight: 700;
 }
 
-.about{
+.about {
     width: 100vw;
     height: 500px;
 }
-.marine-video{
+
+.marine-video {
     display: grid;
     justify-items: center;
     align-self: center;
@@ -220,7 +231,7 @@ h1, p{
 }
 
 
-.marine-video iframe{
+.marine-video iframe {
     height: 400px;
     width: 400px;
     border-radius: 20px;
@@ -229,7 +240,7 @@ h1, p{
 }
 
 
-.about-text{
+.about-text {
     text-align: center;
     display: flex;
     align-items: center;
@@ -240,47 +251,34 @@ h1, p{
 }
 
 
-.about-text-cp{
+.about-text-cp {
     font-weight: 700;
 }
 
 
-.about{
+.about {
     height: 660px;
     width: 100%;
     background-color: white;
 }
 
 
-.header-main-nav li a:hover{
-    color:orange;
+.header-main-nav li a:hover {
+    color: orange;
     font-weight: 700;
     opacity: 0.7;
     transition: opacity 2s;
 }
 
 
-.wrapper{
-    width: 100%;
-    height: 100vh;
-    background-image: url(./pexels-frank-cone-3214110.jpg);
-    background-size: cover;
-    display: flex;
-        justify-content: center;
-        align-items: center;
-}
-.wrapper-glass{
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(255, 255, 255, .1);
-    backdrop-filter: blur(20px);
-    width: 1270px;
-    height: 640px;
-    border: 1px none none;
-    border-radius: 20px;
-    margin-right: 20px;
+body {}
 
+.wrapper {
+    width: 100%;
+    height: 700px;
+    background-color: black;
 }
+
 .circle {
     width: 400px;
     height: 400px;
@@ -311,7 +309,7 @@ h1, p{
 
 .continents {
     animation: animate-2 43s linear 3.5;
-    width: 10000px;
+    width: 1000px;
 }
 
 @keyframes animate {
@@ -376,13 +374,15 @@ h1, p{
 
 .about_globe {
     width: 600px;
+    height: 800px;
+    position: absolute;
+    top: 50px;
+    left: 800px;
     color: white;
     display: none;
-    margin-left: 30px;
 }
 
 .about_globe img {
     width: 100%;
-    height: 400px;
+    height: 300px;
 }
-
